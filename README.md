@@ -1,6 +1,6 @@
 # Game Test Projects
 
-## Controller
+## controller.py
 
-Series of tests to implement Nimbus game controller
+Series of tests to implement Nimbus Steel Series game controller
 
