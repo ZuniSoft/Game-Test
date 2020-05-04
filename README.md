@@ -1,4 +1,4 @@
-# Game Test Projects
+# Pythonista Game Test Projects
 
 ## controller.py
 
