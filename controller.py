@@ -5,8 +5,6 @@ Quick test to retrieve telemetry data from a Nimbus Steel Series controller.
 """
 
 from scene import *
-import sound
-import random
 
 class ControllerTest (Scene):
 	def setup(self):
