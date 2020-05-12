@@ -20,6 +20,9 @@ class MoveSprite (Scene):
 		self.add_child(self.player)
 		
 	def controller_changed(self, id, key, value):
+		if not self.view:
+			return
+			
 		scrn_h = self.size.h
 		scrn_w = self.size.w
 		
@@ -46,4 +49,4 @@ class MoveSprite (Scene):
 			self.player.position = x, y
 
 if __name__ == '__main__':
-	run(MoveSprite(), LANDSCAPE, show_fps=True) 
+	run(MoveSprite(), PORTRAIT, show_fps=True) 

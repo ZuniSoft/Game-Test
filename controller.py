@@ -11,6 +11,9 @@ class ControllerTest (Scene):
 		self.background_color = '#004f82'
 		
 	def controller_changed(self, id, key, value):
+		if not self.view:
+			return
+			
 		print("ID: " + str(id))
 		print("Key: " + key)
 		print("Value: " + str(value))
